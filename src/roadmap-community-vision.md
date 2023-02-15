@@ -1,6 +1,6 @@
 # Open Source Community Vision
 
-Some tools are developed in workplaces for niche use-cases that repeat between different companies, work places and clients, where skilled workers find themselves create, write and design the same tools over and over again, having no common standard.   
+Some tools are developed in workplaces for niche use-cases that repeat between different companies, workplaces and clients, where skilled workers find themselves create, write and design the same tools over and over again, having no common standard.   
 
 My vision is to create some of these tools to be publicly available for free, encourage and build an open-source community around them in order to:  
  - Provide a common language and standard for common niche projects
