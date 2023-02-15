@@ -31,7 +31,7 @@ Logically separates the front-end, back-end and data layers which should allow f
 
 - Develop or use ready Smart Templates that are programmed to act differently upon varying data inputs
 
-- (WIP) Download or share Smart Templates from the community marketplace
+- (WIP) Download or share Smart Templates with the community marketplace
 
 ### Minimalist & Reliable
 
