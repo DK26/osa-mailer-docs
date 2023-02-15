@@ -27,7 +27,7 @@ It is designed in the context of alerting or notifying about events and elegantl
 
 ### Smart Templates & Marketplace  
 
-Logically separates the front-end, back-end and data layers which should allow for easier community adaption (one does not required to understand all layers when using, maintaining or configuring the tool) 
+Logically separates the front-end, back-end and data layers which should allow for easier community adaption (one is not required to understand all layers when using, maintaining or configuring the tool) 
 
 - Develop or use ready Smart Templates that are programmed to act differently upon varying data inputs
 
