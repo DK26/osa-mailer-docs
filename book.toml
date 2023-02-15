@@ -3,7 +3,7 @@ authors = ["David Krasnitsky"]
 language = "en"
 multilingual = false
 src = "src"
-title = "OSA-Mailer Guide Book"
+title = "OSA-Mailer Guidebook"
 
 [output.html]
 git-repository-url = "https://github.com/DK26/osa-mailer-docs"
