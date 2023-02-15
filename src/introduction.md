@@ -1,16 +1,43 @@
 # Introduction
 
-OSA-Mailer is a free and open-source feature-rich backend engine for sending automated E-mails.
+**OSA-Mailer** engine allows you to send dynamic and sophisticated E-mails, using your preferred template engine 
 
-It is meant to create a ready-to-use toolbox for sending E-mails which could contain some complex logical flows for dynamic inputs, outputting dynamic E-mails.
+**O.S.A** stands for **_Open Smart Alert_**
 
-It is designed to completely separate front-end, back-end and data layers in a manner that enables to add and improve features behind the scenes by the backend community, while the frontend community can focus on designing E-mail templates, which are affected by the data the user is providing. 
+### Open
 
-It is designed to be fault-tolerant, and capable of accumulating a batch of E-mails into a single E-mail, merging the data from the entire E-mails batch, in order to prevent spam and maintain readability.
+It is a free and open-source feature-rich backend engine for sending automated E-mails.
 
-It is designed from the ground-up to be an open-source community project.
+### Smart
 
-It supports multiple rendering engines: `tera`, `handlebars` and `liquid`.
+It is meant to provide a ready-to-use toolbox for sending E-mails by using sophisticated, programable HTML templates ("Smart Templates") which may apply some complex logic and capabilities when producing E-mails.
 
-It is written in the Rust programming language which packs all mentioned capabilities in a single, small, high-performing executable (Cloud friendly).
+### Alert
+
+It is designed in the context of alerting or notifying about events and elegantly providing relevant context about them. 
+(It can also be used to send newsletters, but for now you'll have to handle your own subscriptions backend services)
+
+## Main Features
+
+- Manages different smart templates for different categories of your choice
+- Identifies a common denominator for multiple E-mails and merges them into a single E-mail with accumulated context as an optional feature to reduce spam
+- Supports multiple template engines with large communities and great support: `Tera`, `Liquid` and `Handlebars`
+- (To be implemented) Allowing custom functionalities such as embedding dynamic QRCodes or defanging untrusted URLs, IP Addresses and E-mail addresses
+- More community ideas to follow...
+
+### Smart Templates & Marketplace  
+
+Logically separates the front-end, back-end and data layers which should allow for easier community adaption (one does not required to understand all layers when using, maintaining or configuring the tool) 
+
+- Develop or use ready Smart Templates that are programmed to act differently upon varying data inputs
+
+- (WIP) Download or share Smart Templates from the community marketplace
+
+### Minimalist & Reliable 
+
+It is written in the Rust programming language which is both highly reliable and packs all mentioned capabilities in a single, small, high-performing executable (Cloud friendly).
+
+### MVP Status
+
+The project is still in Minimum Viable Product state and is subject to constant change
 

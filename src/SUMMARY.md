@@ -18,10 +18,10 @@
 - [The Outbox]()
 
 
-# Templates
+# Smart Templates
 
-- [How Templates Work]()
-- [Templates Hub]()
+- [Workflow]()
+- [Hub / Marketplace]()
 - [Customizing Your Own Template]()
   - [Tera]()
   - [Handlebars]()
