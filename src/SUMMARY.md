@@ -33,3 +33,7 @@
 
 - [E-mail Report on Error]()
 - [Logs]()
+
+# Roadmap
+
+- [Open Source Community Vision](./roadmap-community-vision.md)
