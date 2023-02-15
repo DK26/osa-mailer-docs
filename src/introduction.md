@@ -25,7 +25,7 @@ It is designed in the context of alerting or notifying about events and elegantl
 - (To be implemented) Allowing custom functionalities such as embedding dynamic QRCodes or defanging untrusted URLs, IP Addresses and E-mail addresses
 - More community ideas to follow...
 
-### Smart Templates & Marketplace  
+### Smart Templates & Marketplace
 
 Logically separates the front-end, back-end and data layers which should allow for easier community adaption (one is not required to understand all layers when using, maintaining or configuring the tool) 
 
@@ -33,7 +33,7 @@ Logically separates the front-end, back-end and data layers which should allow f
 
 - (WIP) Download or share Smart Templates from the community marketplace
 
-### Minimalist & Reliable 
+### Minimalist & Reliable
 
 It is written in the Rust programming language which is both highly reliable and packs all mentioned capabilities in a single, small, high-performing executable (Cloud friendly)
 
