@@ -1,6 +1,6 @@
 # Introduction
 
-**OSA-Mailer** engine allows you to send dynamic and sophisticated E-mails, using your preferred template engine 
+**OSA-Mailer** engine allows you to send dynamic and sophisticated E-mails, using Smart Templates
 
 **O.S.A** stands for **_Open Smart Alert_**
 
