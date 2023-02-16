@@ -7,3 +7,8 @@ title = "OSA-Mailer Guidebook"
 
 [output.html]
 git-repository-url = "https://github.com/DK26/osa-mailer-docs"
+edit-url-template = "https://github.com/DK26/osa-mailer-docs/tree/main/{path}"
+
+[output.html.playground]
+editable = true
+line-numbers = true

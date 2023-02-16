@@ -20,14 +20,17 @@
 
 # Smart Templates
 
-- [Workflow]()
-- [Hub / Marketplace]()
+- [Template Anatomy]()
+  - [Template File]()  
+  - [Manifest File]()   
+  - [Default Configurations]()  
 - [Customizing Your Own Template]()
   - [Tera]()
   - [Handlebars]()
   - [Liquid]()
 - [Custom Functions]()
 - [Preview with the Rendit Tool]()
+- [Hub / Marketplace]()
   
 # Troubleshooting
 
@@ -37,3 +40,7 @@
 # Roadmap
 
 - [Open Source Community Vision](./roadmap-community-vision.md)
+
+-----------
+
+[Contributors]()
