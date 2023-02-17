@@ -4,7 +4,9 @@
 
 # Getting Started
 
-- [Setup]()
+- [Setup](./setup.md)
+  - [Windows](./setup-windows.md)
+  - [Linux]()
 
 # Sending an E-mail
 
@@ -24,7 +26,9 @@
   - [Template File]()  
   - [Manifest File]()   
   - [Default Configurations]()  
-- [Customizing Your Own Template]()
+- [Create Your Own Template]()
+  - [HTML Template]()
+    - [ChatGPT]() 
   - [Tera]()
   - [Handlebars]()
   - [Liquid]()

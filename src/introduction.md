@@ -6,16 +6,16 @@
 
 ### Open
 
-It is a free and open-source feature-rich backend engine for sending automated E-mails
+It is a free and open-source feature-rich backend engine for sending automated E-mails.
 
 ### Smart
 
-It is using sophisticated, programable HTML templates ("Smart Templates") that can provide advanced capabilities when producing E-mails
+It is using sophisticated, programable HTML templates ("Smart Templates") that can provide advanced capabilities when producing E-mails.
 
 ### Alert
 
 It is designed in the context of alerting or notifying about events and elegantly providing relevant context about them. 
-(It can also be used to send newsletters, but for now you'll have to handle your own subscriptions backend services)
+(It can also be used to send newsletters, but for now you'll have to handle your own subscriptions backend services).
 
 ## Main Features
 
@@ -35,9 +35,9 @@ Logically separates the front-end, back-end and data layers which should allow f
 
 ### Minimalist & Reliable
 
-It is written in the Rust programming language which is both highly reliable and packs all mentioned capabilities in a single, small, high-performing executable (Cloud friendly)
+It is written in the Rust programming language which is both highly reliable and packs all mentioned capabilities in a single, small, high-performing executable (Cloud friendly).
 
 ### MVP Status
 
-The project is still in Minimum Viable Product state and is subject to constant change
+The project is still in Minimum Viable Product state and is subject to constant change.
 
