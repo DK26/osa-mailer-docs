@@ -32,7 +32,7 @@ In order to extract a 7-zip archive, you need an extractor that supports it. You
    2. `PORT` - The TCP port number for the `SERVER` variable
    3. `AUTH` - Authentication method: `TLS`, `STARTTLS` or `NOAUTH`
    4. `USERNAME` - Provides the username when using an authentication method other than `NOAUTH`. Uncomment by the removing the double-colons `::` from its `SET` statement (e.g. `::SET USERNAME=username` becomes `SET USERNAME=username`)
-   5. `PASSWORD` - Provides the username when using an authentication method other than `NOAUTH`. Uncomment by the removing the double-colons `::` from its `SET` statement (e.g. `::SET PASSWORD=password` becomes `SET PASSWORD=password`)
+   5. `PASSWORD` - Provides the password when using an authentication method other than `NOAUTH`. Uncomment by the removing the double-colons `::` from its `SET` statement (e.g. `::SET PASSWORD=password` becomes `SET PASSWORD=password`)
 
 
 ```batch
