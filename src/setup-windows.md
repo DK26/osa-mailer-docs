@@ -24,6 +24,19 @@ In order to extract a 7-zip archive, you need an extractor that supports it. You
 
 ## Configure
 
+`osamailer.cmd` :
+
+```batch
+:: Configurations
+SET SERVER=localhost
+SET PORT=25
+SET AUTH=noauth
+::SET USERNAME=username
+::SET PASSWORD=password
+```
+
+**Steps:**
+
 1. Edit the script file `osamailer.cmd` with your favorite text editor
 2. Look for the `:: Configurations` comment  
 3. Notice the `SET` statements which set each environment variable for _OSA-Mailer_
@@ -35,13 +48,5 @@ In order to extract a 7-zip archive, you need an extractor that supports it. You
    5. `PASSWORD` - Provides the password when using an authentication method other than `NOAUTH`. Uncomment by the removing the double-colons `::` from its `SET` statement (e.g. `::SET PASSWORD=password` becomes `SET PASSWORD=password`)
 
 
-```batch
-:: Configurations
-SET SERVER=localhost
-SET PORT=25
-SET AUTH=noauth
-::SET USERNAME=username
-::SET PASSWORD=password
-```
 
 ## Setup a Task for Windows Task Scheduler
