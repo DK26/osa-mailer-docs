@@ -62,7 +62,21 @@ Here are a few links to external articles on different ways to open the Windows 
 In order to open the Windows Task Schedular, we will use a `Run` command:
 
 1. Hold the `Windows` button + press the `R` button
-2. This should open and pop the `Run` window
-3. Type in: `taskschd.msc` and either click the `OK` button or press `ENTER` key
+2. This should open the `Run` window
+3. Type in: `taskschd.msc` and either click the `OK` button or press the `ENTER` key
 
 ![Run](images/taskschd.png)  
+
+![Windows Task Scheduler](images/task_scheduler.png) 
+
+### Create a new Task
+
+It is recommended to create the task within a dedicated folder so it will be easier to maintain and not mix-up with other unrelated tasks.
+
+
+**Steps:**
+1. On the left pane, select the `Task Scheduler Library` directory by clicking on it once with the `LEFT MOUSE` button
+2. Once selected, right click once with the `RIGHT MOUSE` button on the already selected `Task Scheduler Library`, to open the actions menu
+3. Select `New Folder...` from the actions menu
+4. Pick a proper name (`OSA-Mailer` is recommended) and either click on the `OK` button or press the `ENTER` key
+5. 
