@@ -50,3 +50,19 @@ SET AUTH=noauth
 
 
 ## Setup a Task for Windows Task Scheduler
+
+Windows Task Scheduler can be used as a means to trigger and activate _OSA-Mailer_, but it is **not** a requirement in case it doesn't fit your use-case.
+
+### Open the Windows Task Scheduler
+
+Here are a few links to external articles on different ways to open the Windows Task Schedular:
+- [Windows 10](https://www.wikihow.com/Open-Task-Scheduler-in-Windows-10)
+- [Windows 11](https://www.makeuseof.com/windows-11-open-task-scheduler/)
+  
+In order to open the Windows Task Schedular, we will use a `Run` command:
+
+1. Hold the `Windows` button + press the `R` button
+2. This should open and pop the `Run` window
+3. Type in: `taskschd.msc` and either click the `OK` button or press `ENTER` key
+
+![Run](images/taskschd.png)  

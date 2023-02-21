@@ -2,7 +2,7 @@
 
 ## Preface
 
-Currently, OSA-Mailer simply checks its `outbox` directory each time it is executed. As the development is proceedings towards a stable, complete version, OSA-Mailer is currently built only for Windows (i686 to support both 32bit and 64bit architectures) but of course the source code could be built into any architecture that is supported by LLVM & Rust.
+Currently, OSA-Mailer simply checks its `outbox` directory each time it is executed. As the development is proceeding towards a stable, complete version, OSA-Mailer is currently built only for Windows (i686 to support both 32bit and 64bit architectures) but of course the source code could be built into any architecture that is supported by LLVM & Rust.
 
 If you wish for an early build for Linux, or any other architectural build, feel free to open a [discussion](https://github.com/DK26/osa-mailer/discussions/new/choose) about it.
 

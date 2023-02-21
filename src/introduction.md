@@ -1,8 +1,14 @@
 # Introduction
 
+<div align="center"> 
+
+![OSA-Mailer Logo](images/logo.png)
+
 **OSA-Mailer** engine allows you to send dynamic and sophisticated E-mails, using Smart Templates
 
-**O.S.A** stands for **_Open Smart Alert_**
+</div>
+
+## **O.S.A** stands for: **_Open Smart Alert_**
 
 ### Open
 
