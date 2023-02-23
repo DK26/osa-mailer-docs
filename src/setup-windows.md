@@ -97,7 +97,7 @@ It is recommended to create the task within a dedicated folder so it will be eas
 
 8. The `Create Task` window will pop-up
 9. Provide the name for the task: `Check Outbox` (recommended)
-10. Under `Security options`, select the `Run whether use is logged on or not` and select the `Do not store password. The task will only have access to local computer resources.` checkbox
+10. Under `Security options`, select the `Run whether user is logged on or not` and check the `Do not store password. The task will only have access to local computer resources.` checkbox
 11. Click on the `Triggers` tab
    
    ![Task Scheduler Create Task](images/windows_task_scheduler/task_scheduler_new_task.png)
