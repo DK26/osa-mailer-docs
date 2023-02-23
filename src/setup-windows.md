@@ -76,8 +76,8 @@ It is recommended to create the task within a dedicated folder so it will be eas
 
 
 **Steps:**
-1. On the left pane, select the `Task Scheduler Library` directory by clicking on it once with the `LEFT MOUSE` button
-2. Once selected, `RIGHT MOUSE` click once again on the already selected `Task Scheduler Library`, to open the actions menu
+1. On the left pane, select the `Task Scheduler Library` directory by clicking on it once with the `LEFT MOUSE BUTTON` 
+2. Once selected, `RIGHT MOUSE BUTTON` click on the already selected `Task Scheduler Library`, to open the actions menu
 3. Select `New Folder...` from the actions menu
 
    ![Task Scheduler New Folder](images/windows_task_scheduler/task_scheduler_create_new_folder.png)
@@ -86,11 +86,11 @@ It is recommended to create the task within a dedicated folder so it will be eas
 
    ![Task Scheduler New Folder Name](images/windows_task_scheduler/task_scheduler_new_folder.png)
 
-5. Select the newly created folder by a single `LEFT MOUSE` button click
+5. Select the newly created folder by a single `LEFT MOUSE BUTTON` click
    
    ![Task Scheduler New Folder Created](images/windows_task_scheduler/task_scheduler_new_folder_2.png)
 
-6. Once selected, `RIGHT MOUSE` click on it again to pop the actions menu 
+6. Once selected, `RIGHT MOUSE BUTTON` click on it again to pop the actions menu 
 7. Select the `Create Task...` from the actions menu
    
    ![Task Scheduler New Task](images/windows_task_scheduler/task_scheduler_create_task.png)
@@ -116,6 +116,4 @@ It is recommended to create the task within a dedicated folder so it will be eas
 20. Press `OK` to the add the trigger
     
    ![Task Scheduler New Trigger](images/windows_task_scheduler/task_scheduler_create_task_triggers_2.png)
-
-   
 
