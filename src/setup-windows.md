@@ -40,14 +40,17 @@ SET AUTH=noauth
 1. Edit the script file `osamailer.cmd` with your favorite text editor
 2. Look for the `:: Configurations` comment  
 3. Notice the `SET` statements which set each environment variable for _OSA-Mailer_
-4. Configure each environment variable accordingly:
-   1. `SERVER` - SMTP server IP address or hostname (e.g. Gmail, Outlook, SMTP relay-proxy, etc.)
-   2. `PORT` - The TCP port number for the `SERVER` variable
-   3. `AUTH` - Authentication method: `TLS`, `STARTTLS` or `NOAUTH`
-   4. `USERNAME` - Provides the username when using an authentication method other than `NOAUTH`. Uncomment by the removing the double-colons `::` from its `SET` statement (e.g. `::SET USERNAME=username` becomes `SET USERNAME=username`)
-   5. `PASSWORD` - Provides the password when using an authentication method other than `NOAUTH`. Uncomment by the removing the double-colons `::` from its `SET` statement (e.g. `::SET PASSWORD=password` becomes `SET PASSWORD=password`)
+4. Configure each _environment variable_ accordingly:  
 
+   | Environment Variable | Description                                                                      | Mandatory* |
+   | -------------------- | -------------------------------------------------------------------------------- | ---------- |
+   | `SERVER`             | SMTP server IP address or hostname (e.g. Gmail, Outlook, SMTP relay-proxy, etc.) | ✅          |
+   | `PORT`               | The TCP port number for the `SERVER` variable                                    | ✅          |
+   | `AUTH`               | Authentication method: `TLS`, `STARTTLS` or `NOAUTH`                             | ✅          |
+   | `USERNAME`           | Provides the username when using an authentication method other than `NOAUTH`    | ❌          |
+   | `PASSWORD`           | Provides the password when using an authentication method other than `NOAUTH`    | ❌          |
 
+- _To uncomment a variable, remove the double-colons `::` from its `SET` statement (e.g. `::SET USERNAME=username` becomes `SET USERNAME=username`)_
 
 ## Setup a Task for Windows Task Scheduler
 
