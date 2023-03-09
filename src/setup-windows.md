@@ -4,7 +4,7 @@
 
 At this stage of the development, there is no installer.
 
-Currently the way to use _OSA-Mailer_ is it have an external system to run its run script `osamailer.cmd`
+Currently the way to use _OSA-Mailer_ is it have an external system to run its run script `osa_mailer.cmd`
 
 ## Download
 
@@ -24,7 +24,7 @@ In order to extract a 7-zip archive, you need an extractor that supports it. You
 
 ## Configure
 
-`osamailer.cmd` :
+`osa_mailer.cmd` :
 
 ```batch
 :: Configurations
@@ -37,18 +37,18 @@ SET AUTH=noauth
 
 **Steps:**
 
-1. Edit the script file `osamailer.cmd` with your favorite text editor
+1. Edit the script file `osa_mailer.cmd` with your favorite text editor
 2. Look for the `:: Configurations` comment  
 3. Notice the `SET` statements which set each environment variable for _OSA-Mailer_
 4. Configure each _environment variable_ accordingly:  
 
-   | Environment Variable | Description                                                                      | Mandatory* |
-   | -------------------- | -------------------------------------------------------------------------------- | ---------- |
-   | `SERVER`             | SMTP server IP address or hostname (e.g. Gmail, Outlook, SMTP relay-proxy, etc.) | ✅          |
-   | `PORT`               | The TCP port number for the `SERVER` variable                                    | ✅          |
-   | `AUTH`               | Authentication method: `TLS`, `STARTTLS` or `NOAUTH`                             | ✅          |
-   | `USERNAME`           | Provides the username when using an authentication method other than `NOAUTH`    | ❌          |
-   | `PASSWORD`           | Provides the password when using an authentication method other than `NOAUTH`    | ❌          |
+   | Environment Variable | Description                                                                      | Mandatory |
+   | -------------------- | -------------------------------------------------------------------------------- | --------- |
+   | `SERVER`             | SMTP server IP address or hostname (e.g. Gmail, Outlook, SMTP relay-proxy, etc.) | ✅         |
+   | `PORT`               | The TCP port number for the `SERVER` variable                                    | ✅         |
+   | `AUTH`               | Authentication method: `TLS`, `STARTTLS` or `NOAUTH`                             | ✅         |
+   | `USERNAME`           | Provides the username when using an authentication method other than `NOAUTH`    | ❌         |
+   | `PASSWORD`           | Provides the password when using an authentication method other than `NOAUTH`    | ❌         |
 
 - _To uncomment a variable, remove the double-colons `::` from its `SET` statement (e.g. `::SET USERNAME=username` becomes `SET USERNAME=username`)_
 
@@ -105,7 +105,7 @@ It is recommended to create the task within a dedicated folder so it will be eas
    
    ![Task Scheduler Create Task](images/windows_task_scheduler/task_scheduler_new_task.png)
     
-12. On the `Triggers` tab, press the `New...` button to create a new trigger
+12. On the `Triggers` tab, click on the `New...` button to create a new trigger
     
    ![Task Scheduler Task Triggers](images/windows_task_scheduler/task_scheduler_create_task_triggers.png)
 
@@ -116,7 +116,42 @@ It is recommended to create the task within a dedicated folder so it will be eas
 17. **(Recommended)**: Manually copy the value `1 minute` and assign it
 18. Make sure that `for a duration of:` is set to `Indefinitely`
 19. Make sure that the `Enabled` checkbox is checked
-20. Press `OK` to the add the trigger
+20. Click on the `OK` button to the add the trigger
     
    ![Task Scheduler New Trigger](images/windows_task_scheduler/task_scheduler_create_task_triggers_2.png)
 
+21. Click on the `Actions` tab
+
+   ![Task Scheduler After New Trigger](images/windows_task_scheduler/task_scheduler_new_trigger.png)
+
+22. On the `Actions` tab, click on the `New...` button to create a new action
+
+   ![Task Scheduler New Actions](images/windows_task_scheduler/task_scheduler_actions.png)
+
+23. The `New Action` window will pop-up
+24. Under the `Program/script:`  textbox, assign the path to where the `osa_mailer.cmd` file is located
+   - **Optional:** You can click on the `Browse...` button to locate the `osa_mailer.cmd` file
+25. Click on the `OK` button to the add the action
+
+   ![Task Scheduler New Actions](images/windows_task_scheduler/task_scheduler_edit_action.png)
+
+26. Click on the `Conditions` tab
+
+   ![Task Scheduler Conditions](images/windows_task_scheduler/task_scheduler_new_action.png)
+
+27. Make sure that there are no conditions in place and all checkboxes are unchecked
+28. Click on the `Settings` tab
+
+   ![Task Scheduler Conditions](images/windows_task_scheduler/task_scheduler_conditions.png)
+
+29. Make sure that only the following checkboxes are checked:
+    1.  `Allow task to be run on demand`
+    2.  `Run task as soon as possible after a scheduled start is missed`
+    3.  `If the running task does not end when requested, force it to stop`
+    4.  Make sure that the field `If the task is already running, then the following rule applies:` has the value `Do not start a new instance` in its dropbox
+    5.  Make sure the rest of the checkboxes are unchecked
+    6.  Click on the `OK` button to create the task
+
+   ![Task Scheduler Conditions](images/windows_task_scheduler/task_scheduler_settings.png)
+
+30. We are _finished_. You can close the Windows Task Scheduler
