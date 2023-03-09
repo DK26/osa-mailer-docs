@@ -131,7 +131,7 @@ It is recommended to create the task within a dedicated folder so it will be eas
 23. The `New Action` window will pop-up
 24. Under the `Program/script:`  textbox, assign the path to where the `osa_mailer.cmd` file is located
    - **Optional:** You can click on the `Browse...` button to locate the `osa_mailer.cmd` file
-25. Click on the `OK` button to the add the action
+25. Click on the `OK` button to add the action
 
    ![Task Scheduler New Actions](images/windows_task_scheduler/task_scheduler_edit_action.png)
 
