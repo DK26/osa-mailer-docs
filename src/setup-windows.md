@@ -146,12 +146,12 @@ Windows Task Scheduler can be used as a means to trigger and activate _OSA-Maile
 >   ![Task Scheduler Conditions](images/windows_task_scheduler/task_scheduler_conditions.png)
 >
 > 29. Make sure that only the following checkboxes are checked:
->    1.  `Allow task to be run on demand`
->    2.  `Run task as soon as possible after a scheduled start is missed`
->    3.  `If the running task does not end when requested, force it to stop`
->    4.  Make sure that the field `If the task is already running, then the following rule applies:` has the value `Do not start a new instance` in its dropbox
->    5.  Make sure the rest of the checkboxes are unchecked
->    6.  Click on the `OK` button to create the task
+>   -  `Allow task to be run on demand`
+>   -  `Run task as soon as possible after a scheduled start is missed`
+>   -  `If the running task does not end when requested, force it to stop`
+>   -  Make sure that the field `If the task is already running, then the following rule applies:` has the value `Do not start a new instance` in its dropbox
+>   -  Make sure the rest of the checkboxes are unchecked
+>   -  Click on the `OK` button to create the task
 > 
 >   ![Task Scheduler Conditions](images/windows_task_scheduler/task_scheduler_settings.png)
 >

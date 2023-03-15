@@ -2,9 +2,18 @@
 
 On every run, _OSA-Mailer_ is scanning its `outbox` directory for new E-mail entries.
 
-Each E-mail entry is represented as a JSON file. Once the E-mail entry is processed and sent _**successfully**_, it is deleted from the `outbox` directory.**
+Each E-mail entry is represented as a JSON document file. 
 
-> 🚨 **If the `.json` entry file is not _deleted_ from the `outbox` directory, then an _error_ might have occurred. You can check the `logs` directory to get more details about any errors.**
+An E-mail entry can be though of as just a single _"send E-mail"_ request that contains all details required to send it.  
+
+When attempting to send multiple E-mails to the same recipients, on the same subject, having a common denominator, they are all considered to be E-mail _entries_ that compose the same, single E-mail ("Composed E-mail"), that represents the final product to be sent to your recipients.
+
+You can have a relation of multiple E-mail entries per one composed E-mail
+or one E-mail entry per one composed E-mail. It depends on your personal configurations.
+
+Once the E-mail entry is processed and sent _**successfully**_, it is deleted from the `outbox` directory.
+
+> 🚨 **If the `.json` entry file is not _deleted_ from the `outbox` directory, then an _error_ might have occurred. You can check the `logs` directory to get more details about the errors.**
 
 ## Outbox Directory  
 
@@ -27,10 +36,7 @@ Other future features are in-bound such as delayed E-mails, etc. All of these fe
 
 ## E-mail Entry Name Convention
 
-An E-mail entry can be though of as just a single _"send E-mail"_ request. When attempting to send multiple E-mails to the same recipients, on the same subject, having a common denominator, they are all considered to be _E-mail entries_, that are part of a single, composed, E-mail, that is the final product to be sent to your recipients.
 
-You can have a relation of multiple E-mail entries per one composed E-mail
-or one E-mail entry per one composed E-mail. It depends on your personal configurations.
 
 The following describes the current, non-binding standard for E-mail entry file name convention:
 
