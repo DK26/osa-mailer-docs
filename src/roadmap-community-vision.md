@@ -9,4 +9,4 @@ My vision is to create some of these tools to be publicly available for free, en
  - Provide higher quality of manpower for companies by providing potential workers with relevant experience for common community tools with excellent resources
  - Create job opportunities for the community as they easily solve their bosses or clients problems with easy to maintain, standard community solutions 
 
-_-- David Krasnitsky_
+_— David Krasnitsky_

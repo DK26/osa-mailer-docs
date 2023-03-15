@@ -7,11 +7,9 @@
 - [Setup](./setup.md)
   - [Windows](./setup-windows.md)
   - [Linux]()
-
-# Sending an E-mail
-
-- [Basic Features]()
-- [Advanced Features]()
+- [Sending an E-mail](./sending-an-email.md)
+  - [Basic E-mail]()
+  - [Advanced E-mail]()
 
 # Creating a Client
 
