@@ -8,7 +8,8 @@
   - [Windows](./setup-windows.md)
   - [Linux]()
 - [Sending an E-mail](./sending-an-email.md)
-  - [Basic E-mail]()
+  - [Common E-mail Entry](./common_email_entry)
+  - [Basic E-mail](./basic_email.md)
   - [Advanced E-mail]()
 
 # Creating a Client
