@@ -40,14 +40,14 @@ Other future features are in-bound such as delayed E-mails, etc. All of these fe
 
 The following describes the current, non-binding standard for E-mail entry file name convention:
 
- > **{`E-mail ID`}.{`Timestamp`}.{`Entry ID`}.{`CRC32 Checksum`}.json**
+ > **{`E-mail ID`}.{`Timestamp`}.{`Entry ID`}.{`Checksum`}.json**
  
-| Field            | Description                                                                                                   |
-| ---------------- | ------------------------------------------------------------------------------------------------------------- |
-| `E-mail ID`      | A unique ID to identify the E-mail, produced by hashing the `email` part of the entry, encoded in hexadecimal |
-| `Timestamp`      | Creation time in nanoseconds, encoded in hexadecimal                                                          |
-| `Entry ID`       | A unique ID to identify the entry, extracted from the entry itself                                            |
-| `CRC32 Checksum` | A unique CRC32 checksum of the entire entry file, encoded in hexadecimal                                      |
+| Field       | Description                                                                                                   |
+| ----------- | ------------------------------------------------------------------------------------------------------------- |
+| `E-mail ID` | A unique ID to identify the E-mail, produced by hashing the `email` part of the entry, encoded in hexadecimal |
+| `Timestamp` | Creation time in nanoseconds, encoded in hexadecimal                                                          |
+| `Entry ID`  | A unique ID to identify the entry, extracted from the entry itself                                            |
+| `Checksum`  | A unique CRC32 checksum of the entire entry file, encoded in hexadecimal                                      |
 
 > 🚨 **The file name convention isn't mandatory but it helps in debugging and avoiding coalitions when auto-generating E-mail entries. The standard is embedded in the `new_entry.py` script file which is located in the `mail_producer` directory**
 
