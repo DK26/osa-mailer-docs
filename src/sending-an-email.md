@@ -49,6 +49,6 @@ The following describes the current, non-binding standard for E-mail entry file 
 | `Entry ID`  | A unique ID to identify the entry, extracted from the entry itself                                            |
 | `Checksum`  | A unique CRC32 checksum of the entire entry file, encoded in hexadecimal                                      |
 
-> 🚨 **The file name convention isn't mandatory but it helps in debugging and avoiding coalitions when auto-generating E-mail entries. The standard is embedded in the `new_entry.py` script file which is located in the `mail_producer` directory**
+> 🚨 **The file name convention isn't mandatory but it helps in debugging and avoiding coalitions when auto-generating E-mail entries. The standard is embedded in the `new_entry.py` script file which is located under the `mail_producer` directory**
 
 The following chapters will demonstrate how to compose an E-mail entry JSON document.

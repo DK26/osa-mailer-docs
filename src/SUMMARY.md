@@ -4,11 +4,12 @@
 
 # Getting Started
 
-- [Setup](./setup.md)
+- [Configure an SMTP Server with Gmail]()
+- [OSA-Mailer Setup](./setup.md)
   - [Windows](./setup-windows.md)
   - [Linux]()
 - [Sending an E-mail](./sending-an-email.md)
-  - [Common E-mail Entry](./common_email_entry)
+  - [Common E-mail Entry](./common_email_entry.md)
   - [Basic E-mail](./basic_email.md)
   - [Advanced E-mail]()
 
