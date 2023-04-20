@@ -11,18 +11,16 @@ Here is a full example:
     ],
     "email": {
         "system": "My Automations System",
-        "subsystem": "[ID:12345] Trigger: Server Disk Out-of-Space",
-        "from": "Mail System <tech-support@example.com>",
-        "to": [
-            "Rick S. <rick_s@example.com>"
-        ],
-        "cc": [],
-        "bcc": [],
+        "subsystem": "[ID:12345] Trigger: Server Disk Out-of-Storage",
+        "from": "Ops Auto-Mailing System <tech-support@example.com>",
         "reply_to": [
             "System Admin <admin@example.com>",
             "Project Lead <lead@example.com>"
         ],
-        "subject": "Warning: Your server's disk is out-of-space",
+        "to": [ "Rick S. <rick_s@example.com>" ],
+        "cc": [],
+        "bcc": [],
+        "subject": "ATTENTION! Your server is out-of-storage",
         "template": "ops_department",
         "alternative_content": "Unable to render HTML. Please refer to the Ops department for details.",
         "attachments": [],

@@ -10,7 +10,7 @@ Since at this stage there is no point to invest in an installer, nothing special
 
 The following chapters will provide step-by-step instructions on how to configure and deploy OSA-Mailer.
 
-Download the most current 7zip archive (.7z) asset of OSA-Mailer from the [releases](https://github.com/DK26/osa-mailer/releases) page (e.g. `osamailer-alpha-2.7z`) and follow the instructions in the following chapters.
+Download the most current 7zip archive (.7z) asset of OSA-Mailer from the [releases](https://github.com/DK26/osa-mailer/releases) page (e.g. `osamailer-alpha-3_windows-pc-i686.7z`) and follow the instructions in the following chapters.
 
 ## Roadmap
 
